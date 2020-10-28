@@ -18,7 +18,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "homepage": "http://montheramer.github.io/profile"
+    "homepage": "https://montheramer.github.io/profile"
   },
   "eslintConfig": {
     "extends": [
