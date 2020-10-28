@@ -11,6 +11,7 @@
     "react-scripts": "4.0.0",
     "web-vitals": "^0.2.4"
   },
+  "homepage": "http://montheramer.github.io/profile",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -18,7 +19,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "homepage": "https://montheramer.github.io/profile"
   },
   "eslintConfig": {
     "extends": [
