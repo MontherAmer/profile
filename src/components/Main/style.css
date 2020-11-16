@@ -1,0 +1,40 @@
+.main {
+  width: calc(100% - 50px);
+  height: 100%;
+  background-color: #f6f6f6;
+  padding: 16px 32px;
+  color: black;
+  margin-left: 0;
+}
+
+.main--shrink {
+  border-left-width: 4px;
+  border-right-width: 1px;
+  animation: shrink linear 0.3s both;
+}
+
+.main--expand {
+  animation: expand linear 0.3s both;
+}
+
+@keyframes shrink {
+  0% {
+    transform: perspective(20000px) rotateY(-1deg);
+    width: calc(100% - 50px);
+  }
+  100% {
+    transform: perspective(50px) rotateY(-1deg);
+    width: 70%;
+  }
+}
+
+@keyframes expand {
+  0% {
+    transform: perspective(50px) rotateY(-1deg);
+    width: 70%;
+  }
+  100% {
+    transform: perspective(20000px) rotateY(-1deg);
+    width: calc(100% - 50px);
+  }
+}
