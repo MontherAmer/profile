@@ -1,8 +1,8 @@
 import React from 'react';
 
-import styles from './index.module.css'
+import styles from './index.module.css';
 
-import Landing from './Landing'
+import Landing from './Landing';
 
 export default ({ shrink }) => {
   return (
