@@ -7,13 +7,13 @@
   margin-left: 0;
 }
 
-.main--shrink {
+.mainShrink {
   border-left-width: 4px;
   border-right-width: 1px;
   animation: shrink linear 0.3s both;
 }
 
-.main--expand {
+.mainExpand {
   animation: expand linear 0.3s both;
 }
 
