@@ -4,22 +4,8 @@ import styles from './index.module.css'
 const Landing =()=> {
     return (
         <div className={styles.wrapper}>
-            Monther Amer
-            <div className={styles.firefly}></div>
-            <div className={styles.firefly}></div>
-            <div className={styles.firefly}></div>
-            <div className={styles.firefly}></div>
-            <div className={styles.firefly}></div>
-            <div className={styles.firefly}></div>
-            <div className={styles.firefly}></div>
-            <div className={styles.firefly}></div>
-            <div className={styles.firefly}></div>
-            <div className={styles.firefly}></div>
-            <div className={styles.firefly}></div>
-            <div className={styles.firefly}></div>
-            <div className={styles.firefly}></div>
-            <div className={styles.firefly}></div>
-            <div className={styles.firefly}></div>
+            <h1>Hello I'm <span>Monther Amer</span></h1>
+          <h2>I'm a full-stack web develper.</h2>
         </div>
     )
 }
