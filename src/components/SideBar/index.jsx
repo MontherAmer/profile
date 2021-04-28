@@ -3,6 +3,8 @@ import { AiOutlineMenu } from 'react-icons/ai';
 
 import styles from './index.module.css';
 
+import List from './List';
+
 export default ({ shrink, handleHover }) => {
   return (
     <div
@@ -13,7 +15,7 @@ export default ({ shrink, handleHover }) => {
       <div className={`${styles.sidebarIcon} ${shrink && styles.iconHide}`}>
         <AiOutlineMenu size={25} />
       </div>
-      {shrink ? <h1 style={{ color: 'white' }}>hello</h1> : null}
+      {shrink ? <List /> : null}
     </div>
   );
 };
